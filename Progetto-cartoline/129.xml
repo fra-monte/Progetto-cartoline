@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stilecartoline.xsl" ?>
+<!DOCTYPE TEI SYSTEM "MonterisiVita.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO edizione digitale -->
+                <title>Scena milosna (scène d'amour) - Edizione digitale</title>
+                <!-- TRASCRITTORI -->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="IV">Irene Vita</name>
+                    <name xml:id="FM">Francesca Monterisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- DATA DI COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="#IV">Irene Vita</name>
+                    <name ref="FM">Francesca Monterisi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE -->
+            <notesStmt>
+                <note>La cartolina presenta sul retro la traduzione in lingua presumibilmente russa del titolo dell'opera raffigurata sul fronte (non codificata). Inoltre, sul retro in alto a sinistra è presente uno stemma (non codificato).</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO RICAVATO DALLA CARTOLINA -->
+                    <title>Scena milosna (scène d'amour)</title>
+                    <author ref="#LB">Lionello Balestrieri</author> 
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina -->
+                    <publisher>P. La Pina</publisher>
+                    <!-- DATA DI STAMPA -->
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_129_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <!-- DESCRIZIONE DELL'ASPETTO FISICO DELLA CARTOLINA -->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALE -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste italiane</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- LISTA DI NOMI DI ENTITA' -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="LB">
+                        <persName>
+                            <forename>Lionello</forename>
+                            <surname>Balestrieri</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">Illustratore</occupation>
+                        <note>Nacque il 12 sett. 1872 a Cetona (Siena) da un modesto muratore. A Parigi lavorò come aiuto del fiorentino Tofani alle illustrazioni di riviste e giornali, apprendendo in tal modo l'arte dell'incisione.</note>
+                    </person>
+                    <person xml:id="GCH">
+                        <persName>
+                            <forename>Georges</forename>
+                            <surname>Charpentier</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="3">Publisher</occupation>
+                        <note>Georges Charpentier (22 dicembre 1846 - 15 novembre 1905) era un editore francese del XIX secolo che divenne noto come campione di scrittori naturalisti, specialmente Émile Zola, Gustave Flaubert e Guy de Maupassant.</note>
+                    </person>
+                </listPerson>                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                   <place xml:id="PA">
+                       <placeName>Parigi</placeName>
+                       <settlement type="località">città</settlement>
+                       <district type="comune">Parigi</district>
+                       <country key="N">FR</country>
+                   </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <!-- DESCRIZIONE DETTAGLIATA DEGLI ASPETTI NON BIBLIOGRAFICI (in particolare dei partecipanti) -->
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO"/>
+                    <!-- DATA di scrittura -->
+                    <date type="writing" when="1917-09-18">1917/09/18</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Scena milosna (scène d'amour)</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- COORDINATE UTILI AL COLLEGAMENTO TRA IMMAGINE E TESTO CODIFICATI -->
+    <facsimile>
+        <surface xml:id="retro_129" start="#retro_129" n="2">
+            <graphic url='ScanCartoline/129R.jpg' width='605px' height='387px' />
+            <zone xml:id="M1_129" ulx="216" uly="23" lrx="300" lry="363" />
+            <zone xml:id="M2_129" ulx="136" uly="37" lrx="230" lry="321" />
+            <zone xml:id="S_129" ulx="19" uly="3" lrx="175" lry="372" />
+            <zone xml:id="AD1_129" ulx="301" uly="80" lrx="492" lry="161" />
+            <zone xml:id="AD2_129" ulx="305" uly="163" lrx="596" lry="218" />
+            <zone xml:id="AD3_129" ulx="302" uly="221" lrx="594" lry="276" />
+            <zone xml:id="AD4_129" ulx="304" uly="280" lrx="595" lry="372" />
+            <zone xml:id="ST_129" ulx="492" uly="4" lrx="604" lry="150" />
+            <zone xml:id="SC1_129" ulx="6" uly="97" lrx="51" lry="335" />
+            <zone xml:id="SC2_129" ulx="288" uly="231" lrx="301" lry="355" /> 
+        </surface>
+    </facsimile>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <!-- TRASCRIZIONE DEL FRONTE DELLA CARTOLINA -->
+            <div type="fronte">
+                <figure>
+                    <graphic url="ScanCartoline/129F.jpg" />
+                    <figDesc>Due innamorati che guardano la città davanti a loro</figDesc>
+                    <head>Scena milosna (scène d'amour) - <persName ref="#LB">L. Balestrieri</persName></head>
+                </figure>
+            </div>
+            <!-- TRASCRIZIONE DEL RETRO DELLA CARTOLINA -->
+            <div facs="#retro_129" type="retro">
+                <div type="message">
+                    <!-- TRASCRIZIONE DEL MESSAGGIO -->
+                    <p facs="#M1_129"><placeName ref="#MO">Modena</placeName>, li <date when="1917-09-18">18/<hi rend="dep">9</hi> - 17 -</date></p>
+                    <p facs="#M2_129">Affettuosissimi</p>
+                    <signed facs="#S_129"><persName ref="#GC">Giovanni</persName></signed>
+                </div>
+                <div type="destination">
+                    <!-- TRASCRIZIONE DELLA PARTE INERENTE ALLA DESTINAZIONE, AI FRANCOBOLLI ED AI TIMBRI -->
+                    <p>
+                        <stamp facs="#ST_129" type="postmark"> 
+                            <mentioned>
+                                <unclear cert="high" reason="illegible"><placeName ref="#MO">MODENA</placeName> FERRO</unclear><supplied reason="omitted-in-original" resp="#FM">VIA</supplied>
+                            </mentioned>
+                            <date when="1917-09-18">1917/9/18</date>
+                        </stamp>
+                        <stamp facs="#ST_129" type="postage">Poste Italiane Francobollo 5 centesimi</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#AD1_129">Gent. Sig <hi rend="exp">na</hi></addrLine>
+                            <addrLine facs="#AD2_129">
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+                            <addrLine facs="#AD3_129">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#AD4_129">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </p>
+                </div>
+                <!-- DESCRIZIONE DELLE PARTI NON MANOSCRITTE -->
+                <div type="printed">
+                    <p facs="#SC1_129">1161 <persName ref="#LB">L. BALESTRIERI</persName>. Scène d'amour (Louise, opèra de <persName ref="#GCH">G. Charpentier</persName>). 
+                        The love scene. 
+                        Scena milosna.</p>
+                    <p facs="#SC2_129">PRINTED IN <placeName ref="#PA">PARIS</placeName>. P. LA PINA </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

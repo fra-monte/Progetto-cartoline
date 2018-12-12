@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stilecartoline.xsl" ?>
+<!DOCTYPE TEI SYSTEM "MonterisiVita.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO edizione digitale -->
+                <title>Porcellini Abbondanza - Edizione digitale</title>
+                <!-- TRASCRITTORI -->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="IV">Irene Vita</name>
+                    <name xml:id="FM">Francesca Monterisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- DATA DI COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="#IV">Irene Vita</name>
+                    <name ref="FM">Francesca Monterisi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE -->
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO RICAVATO DALLA CARTOLINA -->
+                    <title>Porcellini Abbondanza</title>
+                    <author ref="#EC">Eugenio Colmo</author> 
+                    <pubPlace>Italia</pubPlace>
+                    <!-- DATA DI STAMPA -->
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_131_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <!-- DESCRIZIONE DELL'ASPETTO FISICO DELLA CARTOLINA -->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALE -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste Italiane</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- LISTA DI NOMI DI ENTITA' -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="EC">
+                        <persName>
+                            <forename>Eugenio</forename>
+                            <surname>Colmo</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">Illustratore</occupation>
+                        <note>Detto "Golia" (Torino, 29 ottobre 1885 – Torino, 15 settembre 1967), è stato un pittore, illustratore grafico, disegnatore di moda, caricaturista e ceramista italiano.</note>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <!-- DESCRIZIONE DETTAGLIATA DEGLI ASPETTI NON BIBLIOGRAFICI (in particolare dei partecipanti) -->
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO"/>
+                    <!-- DATA di scrittura -->
+                    <date type="writing" when="1917-08-03">1917/08/03</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="RV"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Donna osserva un'altra donna con maiali</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- COORDINATE UTILI AL COLLEGAMENTO TRA IMMAGINE E TESTO CODIFICATI -->
+    <facsimile>
+        <surface xml:id="fronte_131" start="#fronte_131" n="1">
+            <graphic url='ScanCartoline/131F.jpg' width='247px' height='386px' />
+            <zone xml:id="titF_131" ulx="156" uly="349" lrx="233" lry="375" />
+        </surface>
+        <surface xml:id="retro_131" start="#retro_131" n="2">
+            <graphic url='ScanCartoline/131R.jpg' width='605px' height='386px' />
+            <zone xml:id="M1_131" ulx="205" uly="49" lrx="293" lry="373" />
+            <zone xml:id="S_131" ulx="28" uly="4" lrx="202" lry="338" />
+            <zone xml:id="AD1_131" ulx="295" uly="120" lrx="565" lry="188" />
+            <zone xml:id="AD2_131" ulx="313" uly="184" lrx="603" lry="229" />
+            <zone xml:id="AD3_131" ulx="281" uly="227" lrx="596" lry="294" />
+            <zone xml:id="AD4_131" ulx="351" uly="279" lrx="599" lry="378" />
+            <zone xml:id="ST_131" ulx="363" uly="5" lrx="571" lry="114" />
+            <zone xml:id="SC1_131" ulx="35" uly="333" lrx="178" lry="349" />
+        </surface>
+    </facsimile>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <!-- TRASCRIZIONE DEL FRONTE DELLA CARTOLINA -->
+            <div facs="#fronte_131" type="fronte">
+                <figure>
+                    <graphic url="ScanCartoline/131F.jpg" />
+                    <figDesc>Una donna esterefatta guarda un'altra donna portare al guinzaglio due maiali</figDesc>
+                    <head facs="#titF_131">Porcellini Abbondanza - <persName ref="#EC">Eugenio Colmo</persName></head>
+                </figure>
+            </div>
+            <!-- TRASCRIZIONE DEL RETRO DELLA CARTOLINA -->
+            <div facs="#retro_131" type="retro">
+                <div type="message">
+                    <!-- TRASCRIZIONE DEL MESSAGGIO -->
+                    <p facs="#M1_131"><placeName ref="#MO">Modena</placeName>, li <date when="1917-08-03">3/<hi rend="dep">8</hi> - 1917 -</date></p>
+                    <signed facs="#S_131"><persName ref="#GC">Giovanni</persName></signed>
+                </div>
+                <div type="destination">
+                    <!-- TRASCRIZIONE DELLA PARTE INERENTE ALLA DESTINAZIONE, AI FRANCOBOLLI ED AI TIMBRI -->
+                    <p>
+                        <stamp facs="#ST_131" type="postmark">
+                            <gap reason="illegible" quantity="1" unit="chars"/>
+                            <date when="1917-8"><unclear cert="high" reason="illegible">8.17</unclear></date>
+                            <mentioned>
+                                <placeName ref="#MO"><supplied reason="omitted-in-original">MODENA</supplied></placeName> <unclear cert="high" reason="illegible">FERROVIA</unclear>                                
+                            </mentioned>
+                        </stamp>
+                        <stamp facs="#ST_131" type="postmark"> 
+                            <date when="1917-07-28">3.8.17</date>
+                            <mentioned>
+                                <placeName ref="#MO"><unclear cert="high" reason="illegible">MO</unclear><supplied reason="omitted-in-original">DENA</supplied></placeName> FERROVIA
+                            </mentioned>
+                        </stamp>
+                        <stamp facs="#ST_131" type="postage">Francobollo da 5 centesimi Poste Italiane</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#AD1_131">Gent <hi rend="exp">ma</hi> Sig <hi rend="exp">na</hi></addrLine>
+                            <addrLine facs="#AD2_131">
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+                            <addrLine facs="#AD3_131">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#AD4_131">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+                <!-- DESCRIZIONE DELLE PARTI NON MANOSCRITTE -->
+                <div type="printed">
+                    <p facs="#SC1_131">Proprietà artistica riservata.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

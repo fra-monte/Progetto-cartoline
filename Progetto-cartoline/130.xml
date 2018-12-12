@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stilecartoline.xsl" ?>
+<!DOCTYPE TEI SYSTEM "MonterisiVita.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO edizione digitale -->
+                <title>The Auld Folk at Hame - Edizione digitale</title>
+                <!-- TRASCRITTORI-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="IV">Irene Vita</name>
+                    <name xml:id="FM">Francesca Monterisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- DATA DI COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="#IV">Irene Vita</name>
+                    <name ref="FM">Francesca Monterisi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE -->
+            <notesStmt>
+                <note> La parte non manoscritta presente sotto il messaggio manoscritto (nel retro) non è stata codificata.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO RICAVATO DALLA CARTOLINA -->
+                    <title>The Auld Folk at Hame</title>
+                    <author ref="#HJD">Henry John Dobson</author> 
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Raphael Tuck &amp; Sons</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace ref="#EN">England</pubPlace>
+                    <!-- DATA DI STAMPA -->
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_130_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALE -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste Italiane</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- LISTA DI NOMI DI ENTITA' -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="HJD">
+                        <persName>
+                            <forename>Henry John</forename>
+                            <surname>Dobson</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">Illustratore</occupation>
+                        <note>
+                            (1858-1928) è stato un artista scozzese del XIX / XX secolo. È ricordato per il suo ritratto del 1893 di Keir Hardie.
+                        </note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="EN">
+                        <placeName>Inghilterra</placeName>
+                        <settlement type="nazione">nazione</settlement>
+                        <country key="N">EN</country>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="RTS">
+                        <orgName>Raphael Tuck &amp; Sons</orgName>
+                        <desc>Publisher</desc>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <!--DESCRIZIONE DETTAGLIATA DEGLI ASPETTI NON BIBLIOGRAFICI (in particolare dei partecipanti)-->
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO"/>
+                    <!-- DATA di scrittura -->
+                    <date type="writing" when="1917-08-15">1917/08/15</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Coppia di anziani a tavola</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- COORDINATE UTILI AL COLLEGAMENTO TRA IMMAGINE E TESTO CODIFICATI -->
+    <facsimile>
+        <surface xml:id="fronte_130" start="#fronte_130" n="1">
+            <graphic url='ScanCartoline/130F.jpg' width='605px' height='386px' />
+            <zone xml:id="titF_130" ulx="65" uly="352" lrx="210" lry="372"  />
+        </surface>
+        <surface xml:id="retro_130" start="#retro_130" n="2">
+            <graphic url='ScanCartoline/130R.jpg' width='605px' height='386px' />
+            <zone xml:id="M1_130" ulx="208" uly="29" lrx="285" lry="380" />
+            <zone xml:id="M2_130"  ulx="154" uly="38" lrx="222" lry="380" />
+            <zone xml:id="S_130" ulx="51" uly="13" lrx="152" lry="350" />
+            <zone xml:id="AD1_130" ulx="297" uly="132" lrx="556" lry="207" />
+            <zone xml:id="AD2_130" ulx="311" uly="210" lrx="595" lry="254" />
+            <zone xml:id="AD3_130" ulx="289" uly="257" lrx="594" lry="308" />
+            <zone xml:id="AD4_130" ulx="308" uly="293" lrx="595" lry="386" />
+            <zone xml:id="ST_130" ulx="457" uly="11" lrx="603" lry="152" />
+            <zone xml:id="SC1_130" ulx="3" uly="45" lrx="58" lry="338" />
+            <zone xml:id="SC2_130" ulx="160" uly="37" lrx="451" lry="97" />
+            <zone xml:id="SC3_130" ulx="23" uly="373" lrx="118" lry="384" />
+            <zone xml:id="SC4_130" ulx="345" uly="111" lrx="451" lry="125" />
+        </surface>
+    </facsimile>
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <!-- TRASCRIZIONE DEL FRONTE DELLA CARTOLINA -->
+            <div facs="#fronte_130" type="fronte">
+                <figure>
+                    <graphic url="ScanCartoline/130F.jpg" />
+                    <figDesc>Una coppia di anziani mangia intorno ad un tavolo</figDesc>
+                    <head facs="#titF_130">The Auld Folk at Hame - <persName ref="#HJD">Henry John Dobson</persName></head>
+                </figure>
+            </div>
+            <!-- TRASCRIZIONE DEL RETRO DELLA CARTOLINA -->
+            <div facs="#retro_130" type="retro">
+                <div type="message">
+                    <!--  TRASCRIZIONE DEL MESSAGGIO  -->
+                    <p facs="#M1_130"><placeName ref="#MO">Modena</placeName> li <date when="1917-08-15">15/<hi rend="dep">8</hi> -17-</date><time when="23:00:00">ore 23-</time></p>
+                    <p facs="#M2_130">Ti ricordo con affetto</p>
+                    <signed facs="#S_130"><persName ref="#GC">Giovanni</persName></signed>
+                </div>
+                <div type="destination">
+                    <p>
+                        <!--TRASCRIZIONE DELLA PARTE INERENTE ALLA DESTINAZIONE, AI FRANCOBOLLI ED AI TIMBRI-->
+                        <stamp facs="#ST_130" type="postmark"> 
+                            <mentioned>
+                                <damage agent="usury">
+                                    <placeName ref="#MO">MODENA</placeName> FERROVIA
+                                    <gap agent="time" quantity="6" unit="chars"/>
+                                </damage>
+                            </mentioned>
+                        </stamp>
+                        <stamp facs="#ST_130" type="postage">Poste Italiane Francobollo 5 centesimi</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#AD1_130">Gent Sig <hi rend="exp">na</hi></addrLine>
+                            <addrLine facs="#AD2_130">
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+                            <addrLine facs="#AD3_130">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#AD4_130">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                        </address>
+                    </p>
+                </div>
+                <!-- DESCRIZIONE DELLE PARTI NON MANOSCRITTE -->
+                <div type="printed">
+                    <p facs="#SC1_130">"SCOTTISH LIFE AND CHARACTER" Series IV
+                        <orgName ref="#RTS">Raphael Tuck &amp; Sons</orgName> "OILETTE" Postcard no. 9479
+                        ART PUBLISHER TO THEIR MAJESTIES THE KING &amp; QUEEN
+                        After the original painting by <persName ref="#HJD">H.J.DOBSON</persName> A.R.C.A. , R.S.W</p>
+                    <p facs="#SC2_130"> <orgName ref="#RTS">TUCK</orgName>'S POST CARD 
+                        CARTE POSTALE.</p>
+                    <p facs="#SC3_130">Printed in <placeName ref="#EN">England</placeName></p>
+                    <p facs="#SC4_130">FOR ADDRESS ONLY</p> 
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
